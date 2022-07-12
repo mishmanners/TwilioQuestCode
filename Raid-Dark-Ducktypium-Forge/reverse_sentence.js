@@ -13,6 +13,8 @@ function reverseSentence(sentence) {
 
     // split the punctuation
     const punctuationArray = sentence.match(/[.,;:!?]/g);
+    // remove punctuation from the sentence
+    sentence = sentence.replace(/[.,;:!?]/g, "");
 
     // reverse the sentence and join it together
     const reversedSentence = sentenceArray.reverse().join(" ");
