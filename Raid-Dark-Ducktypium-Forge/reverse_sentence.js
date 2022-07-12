@@ -3,8 +3,10 @@ function reverseSentence(sentence) {
     // one line reverse with no other changes
     // reverseSentence = sentence.split(" ").reverse().join(" ");
 
-    // lowercase the first letter of the sentence
+    // lowercase the first letter of the sentence if it's not an I
+    if (sentence.charAt(0) !== "I") {
     sentence = sentence.charAt(0).toLowerCase() + sentence.slice(1);
+    }
 
     // split the sentence
     const sentenceArray = sentence.split(" ");
