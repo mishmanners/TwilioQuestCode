@@ -1,6 +1,7 @@
 function removeDuplicateCharacters(string) {
 
- // remove ALL duplicates: return string.split('').filter((item, index, inputArray) => inputArray.indexOf(item) === index).join('');
+ // remove ALL duplicates:
+ // return string.split('').filter((item, index, inputArray) => inputArray.indexOf(item) === index).join('');
 
     function removeDuplicateCharacters(string) {
         const nonDuplicateCharacters = [];
