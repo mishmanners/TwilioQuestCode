@@ -35,3 +35,4 @@ console.log(removeDuplicateCharacters("abba"));
 
 console.log("Test case 4:");
 console.log(removeDuplicateCharacters("fffunnn"));
+

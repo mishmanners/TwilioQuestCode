@@ -1,6 +1,5 @@
 function sumArray(numbers) {
-    // TODO: Sum the numbers!
-    
+    // function to sum all the numbers in an array   
       var sum = 0;
       for (var i = 0; i < numbers.length; i++) {
           sum += numbers[i];
